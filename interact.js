@@ -21,18 +21,18 @@ function onLoad()
     $.getJSON('info.json', function(data) {
          //do stuff with your data here
          console.log(data);
-         infoObjects = data;
+         let top = document.getElementById("artistName");
+         let element = document.createElement("p");
+         console.log(top);
+         console.log(element);
+         console.log(infoObjects);
+         element.innerHTML = infoObjects.artistName;
+        
+         top.appendChild(newContent);
  });
 
 
- let top = document.getElementById("artistName");
- let element = document.createElement("p");
- console.log(top);
- console.log(element);
- console.log(infoObjects);
- element.innerHTML = infoObjects.artistName;
 
- top.appendChild(newContent);
 
 
 
