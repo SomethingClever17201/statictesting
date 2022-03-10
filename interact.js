@@ -153,10 +153,10 @@ function turnyBoi() {
                     console.log(top);
 
                     let henlo = top.clientWidth/300;
-                    console.log(henlo);
+                    
+                    let value = "scale(" + henlo + ")"
 
-
-                    content.style.transform = "scale(.5, 1)";
+                    content.style.transform = value;
 
 
                     obj -= 5 * (1 - (obj/(x + 50)));
