@@ -55,6 +55,7 @@ function onLoad()
           let a = data.content + "";
         let puredata = a.substring(0,top.clientWidth);
         console.log(top.clientWidth);
+        console.log(top.offsetWidth);
         console.log(a);
         console.log(puredata);
 
