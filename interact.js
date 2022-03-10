@@ -26,7 +26,7 @@ function onLoad()
          console.log(top);
          console.log(element);
          console.log(infoObjects);
-         element.innerHTML = infoObjects.artistName;
+         element.innerHTML = data.artistName;
         
          top.appendChild(newContent);
  });
