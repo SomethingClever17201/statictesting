@@ -7,7 +7,7 @@
 
 //98BF5B
 
-
+//12 lines
 function onLoad()
 {
 
@@ -49,6 +49,11 @@ function onLoad()
           element.style.color = "#FFFFFF"
           element.innerHTML = data.secondQuestion;
           top.appendChild(element);
+
+          top = document.getElementById("content");
+          element = document.createElement("p");
+           element.innerHTML = data.content;
+           top.appendChild(element);
  });
 
 
