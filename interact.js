@@ -101,7 +101,8 @@ function turnyBoi() {
 
 
 
-
+    let top = document.getElementById("content");
+    let content = document.getElementById("contentId");
 
 
 
@@ -147,14 +148,14 @@ function turnyBoi() {
         
                 if(bool){
 
-                    let top = document.getElementById("content");
+                    
 
                     console.log(top);
 
-                    let henlo = 16/top.clientWidth;
+                    let henlo = 16 * screenTop.clientWidth/300;
                     console.log(henlo);
 
-                    content = document.getElementById("contentId");
+                    
                     content.style.fontSize = henlo + "px";
 
 
