@@ -29,6 +29,7 @@ function onLoad()
  let element = document.createElement("p");
  console.log(top);
  console.log(element);
+ console.log(infoObjects);
  element.innerHTML = infoObjects.artistName;
 
  top.appendChild(newContent);
