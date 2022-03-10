@@ -154,7 +154,7 @@ function turnyBoi() {
 
                     let henlo = top.clientWidth/300;
                     
-                    let value = "scale(" + henlo + ",0)"
+                    let value = "scale(" + henlo + ",1)"
 
                     content.style.transform = value;
 
@@ -168,7 +168,7 @@ function turnyBoi() {
 
                     let henlo = top.clientWidth/300;
                     
-                    let value = "scale(" + henlo + ",0)"
+                    let value = "scale(" + henlo + ",1)"
 
                     content.style.transform = value;
 
