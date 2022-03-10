@@ -60,9 +60,10 @@ function onLoad()
           element.style.width = "300px";
           let a = data.content + "";
         let puredata = a.substring(0,(top.clientWidth/7) * 12);
+        
+        element.id = "contentId"
+        
 
-
-        element.style.fontSize = "5%";
 
 
 
@@ -145,6 +146,14 @@ function turnyBoi() {
                 }
         
                 if(bool){
+
+                    let x= 16/top.clientWidth;
+
+
+                    content = document.getElementById("contentId");
+                    content.style.fontSize = x + "px";
+
+
                     obj -= 5 * (1 - (obj/(x + 50)));
                     
         
