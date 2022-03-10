@@ -58,7 +58,8 @@ function onLoad()
           element = document.createElement("p");
           let a = data.content + "";
         let puredata = a.substring(0,(top.clientWidth/7) * 12);
-        element.style.whiteSpace = "nowrap";
+        element.style.position = "relative";
+        element.style.width = "100%";
 
         element.style.padding = "5%";
            element.innerHTML = puredata;
