@@ -152,7 +152,7 @@ function turnyBoi() {
 
                     console.log(top);
 
-                    let henlo = top.clientWidth/300;
+                    let henlo = 300/top.clientWidth;
                     
                     let value = "scale(" + henlo + ")"
 
