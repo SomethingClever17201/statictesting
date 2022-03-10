@@ -39,6 +39,7 @@ function onLoad()
          element.style.textAlign =  "center";
          element.style.fontWeight =  "bold";
          element.style.color = "#FFFFFF"
+         element.style.position = "relative";
          element.style.margin = "auto";
          element.innerHTML =  data.question;
          top.appendChild(element);
@@ -48,6 +49,7 @@ function onLoad()
  
           element.style.textAlign =  "center";
           element.style.color = "#FFFFFF"
+          element.style.position = "relative";
           element.style.margin = "auto";
           element.innerHTML = data.secondQuestion;
           top.appendChild(element);
@@ -55,7 +57,7 @@ function onLoad()
           top = document.getElementById("content");
           element = document.createElement("p");
           let a = data.content + "";
-        let puredata = a.substring(0,(top.clientWidth/6) * 12);
+        let puredata = a.substring(0,(top.clientWidth/7) * 12);
 
         element.style.padding = "5%";
            element.innerHTML = puredata;
