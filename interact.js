@@ -52,10 +52,10 @@ function onLoad()
 
           top = document.getElementById("content");
           element = document.createElement("p");
-          let variable = Math.floor(top.style.height/1.3);
+          let variable = Math.floor(top.clientHeight/1.3);
           let a = data.content + "";
         let puredata = a.substring(0,variable);
-        console.log(top.height);
+        console.log(top.clientHeight);
         console.log(variable);
         console.log(a);
         console.log(puredata);
