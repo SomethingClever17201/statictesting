@@ -57,7 +57,7 @@ function onLoad()
           top = document.getElementById("content");
           element = document.createElement("p");
           element.style.position = "relative";
-          element.style.width = "3270px";
+          element.style.width = "270px";
           let a = data.content + "";
         let puredata = a.substring(0,(top.clientWidth/7) * 12);
         
