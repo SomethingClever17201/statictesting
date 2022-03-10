@@ -27,12 +27,26 @@ function onLoad()
          element.style.textAlign =  "center";
          element.style.fontWeight =  "bold";
          element.style.color = "#FFFFFF"
-         console.log(top);
-         console.log(element);
-         console.log(infoObjects);
-         element.innerHTML = data.artistName;
-        
+         element.innerHTML = data.pieceName + " by " +data.artistName;
          top.appendChild(element);
+
+
+         top = document.getElementById("question");
+        element = document.createElement("p");
+
+         element.style.textAlign =  "center";
+         element.style.fontWeight =  "bold";
+         element.style.color = "#FFFFFF"
+         element.innerHTML =  data.question;
+         top.appendChild(element);
+
+         top = document.getElementById("questionTwo");
+         element = document.createElement("p");
+ 
+          element.style.textAlign =  "center";
+          element.style.color = "#FFFFFF"
+          element.innerHTML = data.secondQuestion;
+          top.appendChild(element);
  });
 
 
