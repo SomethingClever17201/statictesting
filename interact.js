@@ -53,7 +53,10 @@ function onLoad()
           top = document.getElementById("content");
           element = document.createElement("p");
           let variable = Math.floor(top.style.height/1.3);
-        let puredata = (data.content + "").substring(0,variable);
+          let a = data.content + "";
+        let puredata = a.substring(0,variable);
+        console.log(variable);
+        console.log(a);
         console.log(puredata);
 
 
