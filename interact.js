@@ -15,7 +15,7 @@ function onLoad()
     let height = obj.height;
     obj.style.height = height + 'px';
 
-    let infoObjects;
+    var infoObjects;
 
 
     $.getJSON('info.json', function(data) {
