@@ -71,12 +71,6 @@ function onLoad()
         
         element.id = "contentId"
         
-
-
-
-
-
-        element.style.padding = "5%";
            element.innerHTML = puredata;
            top.appendChild(element);
  });
