@@ -18,11 +18,25 @@ function onLoad()
 
     console.log(height);
 
+    let infoObjects;
+
 
     $.getJSON('info.json', function(data) {
          //do stuff with your data here
          console.log(data);
+         infoObjects = data;
  });
+
+
+ let top = document.getElementById("artistName");
+ let element = document.createElement("p");
+
+ element.innerHTML = infoObjects.artistName;
+
+ top.appendChild(newContent);
+
+
+
 
 }
 
