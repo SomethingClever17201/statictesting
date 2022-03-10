@@ -147,10 +147,12 @@ function turnyBoi() {
         
                 if(bool){
 
-                    top = document.getElementById("content");
+                    let top = document.getElementById("content");
+
+                    console.log(top);
 
                     let x= 16/top.clientWidth;
-
+                    console.log(x);
 
                     content = document.getElementById("contentId");
                     content.style.fontSize = x + "px";
