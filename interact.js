@@ -54,6 +54,7 @@ function onLoad()
           element = document.createElement("p");
           let variable = Math.floor(top.style.height/1.3);
         let puredata = (data.content + "").substring(0,variable);
+        console.log(puredata);
 
 
            element.innerHTML = puredata;
