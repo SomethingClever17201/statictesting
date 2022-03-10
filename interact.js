@@ -147,6 +147,8 @@ function turnyBoi() {
         
                 if(bool){
 
+                    top = document.getElementById("content");
+
                     let x= 16/top.clientWidth;
 
 
