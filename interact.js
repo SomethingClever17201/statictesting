@@ -152,11 +152,11 @@ function turnyBoi() {
 
                     console.log(top);
 
-                    let henlo = 16 * screenTop.clientWidth/300;
+                    let henlo = screenTop.clientWidth/300;
                     console.log(henlo);
 
-                    
-                    content.style.fontSize = henlo + "px";
+
+                    content.style.transform = "scale(.5, 1)";
 
 
                     obj -= 5 * (1 - (obj/(x + 50)));
