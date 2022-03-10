@@ -26,7 +26,9 @@ function onLoad()
 
          element.style.textAlign =  "center";
          element.style.fontWeight =  "bold";
-         element.style.color = "#FFFFFF"
+         element.style.color = "#FFFFFF";
+
+         element.style.position = "relative"
          element.innerHTML = data.pieceName + " by " +data.artistName;
          top.appendChild(element);
 
