@@ -60,10 +60,9 @@ function onLoad()
           element.style.width = "300px";
           let a = data.content + "";
         let puredata = a.substring(0,(top.clientWidth/7) * 12);
-        let x= 16/top.clientWidth;
 
 
-        element.style.fontSize = x + "px";
+        element.style.fontSize = "5%";
 
 
 
