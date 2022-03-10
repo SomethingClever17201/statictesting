@@ -40,7 +40,7 @@ function onLoad()
          element.style.fontWeight =  "bold";
          element.style.color = "#FFFFFF"
          element.style.position = "relative";
-         element.style.padding = "7% 0";
+         element.style.padding = "8% 0";
          element.innerHTML =  data.question;
          top.appendChild(element);
 
@@ -57,7 +57,7 @@ function onLoad()
           top = document.getElementById("content");
           element = document.createElement("p");
           element.style.position = "relative";
-          element.style.width = "300px";
+          element.style.width = "3270px";
           let a = data.content + "";
         let puredata = a.substring(0,(top.clientWidth/7) * 12);
         
@@ -106,6 +106,8 @@ function turnyBoi() {
 
 
 
+
+    let annoyings = document.getElementsByTagName("p");
 
     let obj = x;
 
@@ -156,8 +158,7 @@ function turnyBoi() {
                     
                     let value = "scale(" + henlo + ",1)"
 
-                    content.style.transform = value;
-                    content.style.transformOrigin = "0% 0%";
+                    moveElems(annoyings,value)
 
 
                     obj -= 5 * (1 - (obj/(x + 50)));
@@ -206,6 +207,15 @@ function turnyBoi() {
         {
             for (let i = 0; i < elems.length;i++){
                 elems[i].style.visibility= "visible";
+            }
+        }
+
+
+        function moveElems(elems,value)
+        {
+            for (let i = 0; i < elems.length;i++){
+                elems[i].style.transform = value;
+                elems[i].style.transformOrigin = "0% 0%";
             }
         }
 
