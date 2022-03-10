@@ -28,6 +28,7 @@ function onLoad()
          element.style.fontWeight =  "bold";
          element.style.color = "#FFFFFF";
          element.style.width = "300px";
+         element.style.height = "50px";
          element.style.padding = "5% 0";
          element.style.position = "relative"
          element.innerHTML = data.pieceName + " by " +data.artistName;
