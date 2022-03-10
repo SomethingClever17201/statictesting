@@ -23,6 +23,10 @@ function onLoad()
          console.log(data);
          let top = document.getElementById("artistName");
          let element = document.createElement("p");
+
+         element.style.textAlign =  "center";
+         element.style.fontWeight =  "bold";
+         element.style.color = "#FFFFFF"
          console.log(top);
          console.log(element);
          console.log(infoObjects);
