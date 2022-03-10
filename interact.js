@@ -15,9 +15,6 @@ function onLoad()
     let height = obj.height;
     obj.style.height = height + 'px';
 
-
-    console.log(height);
-
     let infoObjects;
 
 
@@ -30,7 +27,8 @@ function onLoad()
 
  let top = document.getElementById("artistName");
  let element = document.createElement("p");
-
+ console.log(top);
+ console.log(element);
  element.innerHTML = infoObjects.artistName;
 
  top.appendChild(newContent);
