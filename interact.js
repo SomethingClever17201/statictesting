@@ -56,9 +56,16 @@ function onLoad()
 
           top = document.getElementById("content");
           element = document.createElement("p");
+          element.style.position = "relative";
           let a = data.content + "";
         let puredata = a.substring(0,(top.clientWidth/7) * 12);
-        element.style.position = "fixed";
+        let x= 16/top.clientWidth;
+
+
+        element.style.fontSize = x + "px";
+
+
+
 
         element.style.padding = "5%";
            element.innerHTML = puredata;
