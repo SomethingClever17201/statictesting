@@ -53,11 +53,7 @@ function onLoad()
           top = document.getElementById("content");
           element = document.createElement("p");
           let a = data.content + "";
-        let puredata = a.substring(0,top.clientWidth);
-        console.log(top.clientWidth);
-        console.log(top.offsetWidth);
-        console.log(a);
-        console.log(puredata);
+        let puredata = a.substring(0,(top.clientWidth/50) * 12);
 
 
            element.innerHTML = puredata;
