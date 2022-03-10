@@ -27,7 +27,7 @@ function onLoad()
          element.style.textAlign =  "center";
          element.style.fontWeight =  "bold";
          element.style.color = "#FFFFFF";
-         element.style.width = "270px";
+         element.style.width = "300px";
          element.style.padding = "5% 0";
          element.style.position = "relative"
          element.innerHTML = data.pieceName + " by " +data.artistName;
@@ -40,9 +40,9 @@ function onLoad()
          element.style.textAlign =  "center";
          element.style.fontWeight =  "bold";
          element.style.color = "#FFFFFF"
-         element.style.width = "270px";
+         element.style.width = "300px";
          element.style.position = "relative";
-         element.style.padding = "8% 0";
+         element.style.padding = "9% 0";
          element.innerHTML =  data.question;
          top.appendChild(element);
 
@@ -52,7 +52,7 @@ function onLoad()
           element.style.textAlign =  "center";
           element.style.color = "#FFFFFF"
           element.style.position = "relative";
-          element.style.width = "270px";
+          element.style.width = "300px";
           element.style.padding = "5% 0";
           element.innerHTML = data.secondQuestion;
           top.appendChild(element);
