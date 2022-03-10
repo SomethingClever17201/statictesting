@@ -58,7 +58,7 @@ function onLoad()
           element = document.createElement("p");
           let a = data.content + "";
         let puredata = a.substring(0,(top.clientWidth/7) * 12);
-        element.style.position = "absolute";
+        element.style.position = "fixed";
         element.style.width = "100%";
 
         element.style.padding = "5%";
