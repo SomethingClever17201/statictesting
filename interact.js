@@ -50,7 +50,7 @@ function onLoad()
           element.style.textAlign =  "center";
           element.style.color = "#FFFFFF"
           element.style.position = "relative";
-          element.style.padding = "5% 0";
+          element.style.padding = "7% 0";
           element.innerHTML = data.secondQuestion;
           top.appendChild(element);
 
