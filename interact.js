@@ -152,7 +152,7 @@ function turnyBoi() {
 
                     console.log(top);
 
-                    let henlo = screenTop.clientWidth/300;
+                    let henlo = top.clientWidth/300;
                     console.log(henlo);
 
 
