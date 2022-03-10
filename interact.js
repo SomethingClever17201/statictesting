@@ -55,7 +55,7 @@ function onLoad()
           let a = data.content + "";
         let puredata = a.substring(0,(top.clientWidth/6) * 12);
 
-
+        element.style.padding = "5%";
            element.innerHTML = puredata;
            top.appendChild(element);
  });
