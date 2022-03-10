@@ -53,8 +53,11 @@ function onLoad()
           top = document.getElementById("content");
           element = document.createElement("p");
           element.style.lineHeight = 1.2;
-          element.style.height = 1.2 * 11;
-           element.innerHTML = data.content;
+          let variable = Math.floor(top.style.height/1.3);
+        let puredata = (data.content + "").substring(0,variable);
+
+
+           element.innerHTML = puredata;
            top.appendChild(element);
  });
 
