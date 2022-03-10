@@ -29,7 +29,7 @@ function onLoad()
          element.style.color = "#FFFFFF";
          element.style.width = "300px";
          element.style.height = "50px";
-         element.style.padding = "5% 0";
+         element.style.padding = "15px 0";
          element.style.position = "relative"
          element.innerHTML = data.pieceName + " by " +data.artistName;
          top.appendChild(element);
@@ -42,8 +42,9 @@ function onLoad()
          element.style.fontWeight =  "bold";
          element.style.color = "#FFFFFF"
          element.style.width = "300px";
+         element.style.height = "70px";
          element.style.position = "relative";
-         element.style.padding = "9% 0";
+         element.style.padding = "30px 0";
          element.innerHTML =  data.question;
          top.appendChild(element);
 
@@ -54,14 +55,17 @@ function onLoad()
           element.style.color = "#FFFFFF"
           element.style.position = "relative";
           element.style.width = "300px";
-          element.style.padding = "5% 0";
+          element.style.padding = "15px 0";
+          element.style.height = "50px";
           element.innerHTML = data.secondQuestion;
           top.appendChild(element);
 
           top = document.getElementById("content");
           element = document.createElement("p");
           element.style.position = "relative";
+          element.style.padding = "0 15px";
           element.style.width = "270px";
+          element.style.height = "265px";
           let a = data.content + "";
         let puredata = a.substring(0,(top.clientWidth/7) * 12);
         
