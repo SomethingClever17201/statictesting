@@ -157,6 +157,7 @@ function turnyBoi() {
                     let value = "scale(" + henlo + ",1)"
 
                     content.style.transform = value;
+                    content.style.transformOrigin = "0% 0%";
 
 
                     obj -= 5 * (1 - (obj/(x + 50)));
@@ -171,6 +172,7 @@ function turnyBoi() {
                     let value = "scale(" + henlo + ",1)"
 
                     content.style.transform = value;
+                    content.style.transformOrigin = "0% 0%";
 
 
                     obj+= 5 * (1 - (obj/(x + 50)));
