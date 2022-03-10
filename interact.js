@@ -156,9 +156,9 @@ function turnyBoi() {
 
                     let henlo = top.clientWidth/300;
                     
-                    let value = "scale(" + henlo + ",1)"
+                    let value = "scale(" + henlo + ",1)";
 
-                    moveElems(annoyings,value)
+                    moveElems(annoyings,value);
 
 
                     obj -= 5 * (1 - (obj/(x + 50)));
@@ -168,12 +168,14 @@ function turnyBoi() {
 
                     console.log(top);
 
+                    console.log(top);
+
                     let henlo = top.clientWidth/300;
                     
-                    let value = "scale(" + henlo + ",1)"
+                    let value = "scale(" + henlo + ",1)";
 
-                    content.style.transform = value;
-                    content.style.transformOrigin = "0% 0%";
+                    moveElems(annoyings,value);
+
 
 
                     obj+= 5 * (1 - (obj/(x + 50)));
